@@ -39,23 +39,36 @@ Today’s project has several moving parts — to help us wrap our head around t
 
 Keras and Convolutional Neural Networks (CNNs)Shell
 ├── dataset
+
 │   ├── bulbasaur [234 entries]
+
 │   ├── charmander [238 entries]
+
 │   ├── mewtwo [239 entries]
+
 │   ├── pikachu [234 entries]
+
 │   └── squirtle [223 entries]
+
 ├── examples [6 entries]
+
 ├── pyimagesearch
+
 │   ├── __init__.py
+
 │   └── smallervggnet.py
+
 ├── plot.png
+
 ├── lb.pickle
+
 ├── pokedex.model
+
 ├── classify.py
+
 └── train.py
 
 There are 3 directories:
-
 dataset : Contains the five classes, each class is its own respective subdirectory to make parsing class labels easy.
 examples : Contains images we’ll be using to test our CNN.
 The pyimagesearch  module: Contains our SmallerVGGNet  model class (which we’ll be implementing later in this post).
